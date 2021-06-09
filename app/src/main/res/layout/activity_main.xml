@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formulaire"
+        android:layout_margin="@dimen/margin64"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:inputType="textCapCharacters"
+        android:text=""
+        android:layout_below="@id/textview_Title"
+        android:layout_margin="@dimen/margin10"
+        android:layout_centerHorizontal="true"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/firstname"
+        android:inputType="textCapSentences"
+        android:text=""
+        android:layout_below="@id/editTextName"
+        android:layout_margin="@dimen/margin10"
+        android:layout_centerHorizontal="true"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_mail"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/editTextFirstName"
+        android:layout_margin="@dimen/margin10"
+        android:layout_centerHorizontal="true"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_phone"
+        android:inputType="phone"
+        android:layout_below="@id/editTextEmailAddress"
+        android:layout_margin="@dimen/margin10"
+        android:layout_centerHorizontal="true"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button_Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_below="@id/editTextPhone"
+        android:layout_margin="@dimen/margin50"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

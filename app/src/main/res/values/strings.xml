@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CORNULuc_Persistance</string>
+    <string name="formulaire">Form</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="save">Save</string>
+    <string name="previous">Previous</string>
+
+    <string name="name">Enter your name here</string>
+    <string name="firstname">Enter your first name here</string>
+    <string name="validate">Validate</string>
+    <string name="hint_mail">Enter your mail here</string>
+    <string name="hint_phone">Enter your phone number here</string>
+    <string name="mister">Mr.</string>
+    <string name="miss">Mrs.</string>
+
+    <!-- code -->
+    <string name="l1">C</string>
+    <string name="l2">C++</string>
+    <string name="l3">Java</string>
+    <string name="l4">Pascal</string>
+    <string name="l5">Javascript</string>
+    <string name="l6">PHP</string>
+    <string name="l7">C#</string>
+</resources>
